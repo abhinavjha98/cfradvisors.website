@@ -1,0 +1,714 @@
+*{
+  margin: 0;
+
+}
+
+body{
+    background-attachment: fixed;
+}
+
+.navbar{
+  background-color: rgba(1,1,1,0.8);
+
+}
+
+.navbar-brand{
+  color: white;
+  font-size: 50px;
+   margin-top: 20px;
+  margin-bottom: 20px;
+/*  margin-left: 700px; */
+  /* color: black; */
+}
+
+.nav{
+  padding: 30px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.nav-item{
+    transition: 0.5s;
+}
+
+.nav-item:hover{
+  transition: 0.5s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom:  1px solid #F89621;
+}
+
+.nav-item a:hover{
+  font-size: 20px;
+    color: #F89621!important;
+}
+
+.srv-btn{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.btn{
+  border: 1px solid #F89621!important;
+  width: 150px;
+}
+
+.btn:hover{
+  background-color: black!important;
+  color: #F89621!important;
+}
+
+#btn2{
+  height: 62px;
+}
+
+#btn3{
+  height: 62px;
+}
+
+#btn4{
+  height: 62px;
+}
+
+
+
+/* .d-block.w-100{
+  position: relative;
+  width: 100%;
+} */
+
+/* .carousel1, .carousel2, .carousel3{
+  width: 80%!important;
+} */
+
+.contentButtons{
+  margin-left: 32%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.nav-link{
+  color: white;
+}
+
+
+.hidden{
+  display: none;
+}
+
+
+
+.bg-title{
+  position: static;
+  width: 113%;
+  height: 900px;
+  border-radius: 50px;
+  background-color: black
+}
+
+.title{
+  height: 500px;
+}
+
+.title .container{
+  margin:0;
+  padding: 0;
+  transform: rotate(157deg);
+  position: relative;
+  left: 75px;
+  top: -720px;
+  z-index: -2;
+}
+
+.title h1{
+  position: relative;
+  top: 100px;
+  left: 50px;
+  width: 50%;
+}
+
+.bgImg{
+  background-image: url("bgService.jpg");
+  z-index: -3;
+}
+
+
+.serviceBtns{
+  position: static;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-bottom: 200px;
+}
+
+
+.serviceBtns #sbtn1,#sbtn2,#sbtn3,#sbtn4{
+  width: 130%;
+  height: 70px;
+}
+
+.serviceBtns .btn{
+  background-color: black
+  color: white;
+}
+
+.serviceBtns button:hover{
+  background-color: white!important;
+  color: black!important;
+  border: solid 2px black!important;
+}
+
+
+/* .bg-gradient-primary{
+  background-image: linear-gradient(50deg, rgb(110, 0, 255) 0px, rgb(187, 0, 255) 100%) !important;
+} */
+
+.service-content{
+  position: static;
+  margin-top: 300px;
+  width:100%;
+}
+
+/* .card-column{
+  position: relative;
+  bottom: 200px;
+} */
+
+
+/* .card{
+  background-color: black!important;
+  position: static;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  border: 1px solid #F89621!important;
+} */
+
+.service1, .service2, .service3, .service4{
+    position: absolute;
+    bottom: 5px;
+    right: 120px;
+}
+
+
+.career-body{
+  background-image: url("career-poster.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.career-title{
+  color: white;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+.form-group input{
+  opacity: 0.8!important;
+}
+
+
+.career-form{
+  margin-top: 500px;
+}
+.form-row{
+  padding-left: 100px;
+}
+
+.career-form-row{
+  padding-left: 0!important;
+}
+
+.map{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+/* footer{
+  width: 100%;
+  height: 12%;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+  position: static;
+} */
+
+
+.contact-top{
+  background-image: url("/contact-top.jpg");
+  background-position: bottom;
+  background-size: cover;
+  padding-bottom: 350px;
+
+}
+
+.contact-title{
+  position: relative;
+  top: 50px;
+  left: 50px;
+  width: 500px;
+}
+
+
+.contact-bottom{
+  padding-top: 100px;
+}
+
+.team-top{
+  background-image: url("/team.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 350px;
+  padding-top: 50px;
+}
+
+.team-title{
+  margin-left: 50px;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #F8F9F9;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.team-row{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+
+footer{
+  padding: 40px;
+  color: white;
+  margin-top: 100px;
+  background-color: black;
+}
+
+service-footer{
+  padding: 20px;
+  color: white;
+}
+
+#Id-Container{
+  border-radius: 5px;
+  border: 1px solid;
+padding: 10px;
+padding-bottom: 30px;
+box-shadow: 5px 10px 8px #888888;
+z-index: 3;
+position: relative;
+bottom: 100px;
+background-color: #F2F2E4 ;
+background-attachment: fixed;
+}
+
+.title-main{
+  position: fixed;
+  background-color: rgba(0,0,0,0.4);
+  height: 500px;
+  position: relative;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+}
+
+#home-title{
+  background-image: url("Title-bg.jpg")!important;
+}
+
+#about-title{
+  background-image: url("about-bg.jpg");
+}
+
+.homeTitle{
+  left: 25%;
+}
+.container-content{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.title-text{
+  width: 50%;
+  color: white;
+  position: relative;
+  top: 200px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.index_row{
+  margin-top: 80px;
+}
+
+.about-text{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+  font-size: 40px!important;
+  font-weight: bolder!important;
+}
+
+.about-p{
+    color: #F89621;
+    font-size: 15px;
+}
+.quotes{
+  font-size: 20px;
+  font-family: 'Lobster', cursive;
+}
+
+#team-title{
+  background-image: url("team-bg.jpg");
+}
+
+.team-img{
+  border-radius: 100%;
+  margin-left: 450px;
+}
+
+#team-container{
+  border: 1px solid #F89621;
+  width: 80%;
+  border-radius: 5px;
+padding: 80px;
+box-shadow: 5px 10px 8px #888888;
+z-index: -1;
+position: relative;
+bottom: 70px;
+background-color: white;
+}
+
+.container-card{
+  width: 150px!important;
+  text-shadow: 2px 2px 2px gray;
+}
+
+.text1{
+
+  color:#82E0AA;
+}
+
+.text2{
+
+  color:#AB47BC;
+}
+
+.text3{
+
+  color:#E91E63;
+}
+
+.text4{
+
+  color:#FF8F00;
+}
+
+.text5{
+   color:#0288D1;
+}
+
+
+.container-bottom{
+  width: 500px!important;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.card1{
+  width: 18rem;
+  border: 1px solid #F4511E!important;
+}
+
+.card2{
+  width: 18rem;
+  border: 1px solid #26A69A!important ;
+}
+
+.card3{
+  width: 18rem;
+  border: 1px solid #5C6BC0!important;
+}
+
+.cardTitle_1{
+  color:#F4511E;
+}
+
+.cardTitle_2{
+  color:#26A69A ;
+}
+
+.cardTitle_3{
+  color:#5C6BC0;
+}
+
+/* .subContent{
+  position: static;
+}
+
+.subContent2{
+  left: 200px;
+}
+
+.subContent3{
+  left: 400px;
+}
+
+.subContent4{
+  left: 600px;
+}
+
+.subContent2_1{
+  right: 250px;
+  top: 20px;
+}
+
+.subContent2_2{
+  left:25px;
+  top: 20px;
+}
+
+.subContent2_3{
+  left:300px;
+  top: 20px;
+}
+
+.subContentBG{
+    position: relative;
+    width: 150%;
+}
+
+.subContent3_1{
+  top: 20px;
+  right: 500px;
+}
+
+.subContent3_2{
+  left: 100px;
+}
+
+.subContent3_3{
+    right: 500px;
+}
+
+.subContent3_4{
+  left: 100px;
+}
+
+.subContent3_5{
+  right: 500px;
+} */
+
+
+#content2{
+  z-index: 3;
+}
+
+#contact-title{
+  background-image: url("contact-top.jpg");
+}
+
+.contact-container{
+  padding-top: 50px!important;
+}
+
+.addressText{
+  color: #F89621;
+}
+
+.lead{
+  font-size: 30px!important;
+}
+
+.whatsApp{
+  font-size: 50px;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+.img-thumbnail{
+  position: relative;
+  height: 200px!important;
+  background-size: cover;
+  box-shadow: 3px 3px 3px #888888;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 80px!important;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.img-thumbnail:hover{
+  bottom: 8px;
+  right: 2px;
+  box-shadow: 8px 8px 8px #888888;
+}
+
+.thumb1{
+  background-image: url("CAB.jpg");
+}
+
+.thumb2{
+  background-image: url("FTT.jpg");
+  background-position: bottom;
+}
+
+.thumb3{
+  background-image: url("BG.jpg");
+}
+
+.thumb4{
+  background-image: url("LN.jpg");
+}
+
+.list-group{
+  width: 40%!important;
+}
+
+.list-group-item{
+  background-color: transparent!important;
+  border-color: #F89621!important;
+}
+
+.service-container{
+  position: relative;
+  z-index: 3;
+  bottom: 200px;
+  display: none;
+}
+
+.back-btn{
+  position: relative;
+  bottom: 10px;
+}
+
+
+ @media (max-width: 1090px){
+
+.thumb{
+  width: 70%;
+}
+
+.container-card,.container-bottom{
+  font-size: 20px;
+}
+
+.service-container{
+	width: 80%;
+      top: 30px;
+}
+
+.srv-row{
+width: 80%!important;
+}
+
+.float-nav{
+  position: relative;
+  left: 400px;
+  bottom: 80px;
+}
+
+.team-img{
+  margin-left:245px;
+}
+
+  /* .subContent1,.subContent2,.subContent3,.subContent4{
+    left: 120px;
+  }
+
+  .subContent5{
+    right:300px;
+  }
+
+  .subContent2_1{
+    left: 80px;
+  }
+
+  .subContent2_2{
+    top: 40px;
+    left: 80px;
+  }
+
+  .subContent2_3{
+    top: 60px;
+    left: 80px;
+  }
+
+  .bridgeGap{
+    margin-top: 50px;
+  }
+
+  .subContentBG{
+    width: 100%;
+    top: 10px;
+  left: 30px;
+  }
+
+
+
+  .letNetwork{
+    margin-top: 50px;
+  }
+    .title .container{
+      width: 500px;
+    }
+
+    .title h1{
+      font-size: 30px!important;
+      left: 100px;
+      margin: 0;
+    }
+
+    .button-column{
+      display: none;
+    }
+
+    .service1, .service2, .service3, .service4{
+      width: 700px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+      display: block;
+      position: static;
+    }
+
+    .title .container{
+      transform: rotate(0);
+    } */
+}
